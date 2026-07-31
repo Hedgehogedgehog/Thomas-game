@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://q77lkrlhk3r1"]
 
-[ext_resource type="PackedScene" uid="uid://bbgpc7211uwxf" path="res://res/scenes/player.tscn" id="1_ec7dr"]
+[ext_resource type="PackedScene" uid="uid://bbgpc7211uwxf" path="res://res/player/player.tscn" id="1_ec7dr"]
 [ext_resource type="TileSet" uid="uid://dvdvlcdfi4imr" path="res://tilesset.tres" id="2_j8avd"]
 
 [node name="main" type="Node2D"]
@@ -12,4 +12,5 @@ position = Vector2(532, 258)
 tile_set = ExtResource("2_j8avd")
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(10, 76)
 polygon = PackedVector2Array(137, -13, 145, 152, 254, 93)
