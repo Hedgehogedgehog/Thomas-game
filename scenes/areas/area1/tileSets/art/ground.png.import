@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dsbhfhvymw443"
-path="res://.godot/imported/missingImage.png-78a8dfc097e8d4ff381eaa0b1f5705b3.ctex"
+uid="uid://5hjgcqu3lop"
+path="res://.godot/imported/ground.png-45f34d17ea12e30d68bcc26de493918c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://res/art/debug/missingImage.png"
-dest_files=["res://.godot/imported/missingImage.png-78a8dfc097e8d4ff381eaa0b1f5705b3.ctex"]
+source_file="res://scenes/areas/area1/tileSets/art/ground.png"
+dest_files=["res://.godot/imported/ground.png-45f34d17ea12e30d68bcc26de493918c.ctex"]
 
 [params]
 
