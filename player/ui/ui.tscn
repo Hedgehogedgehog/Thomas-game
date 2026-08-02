@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ctnp7andui2mu"]
+
+[ext_resource type="PackedScene" uid="uid://dlte4lr4unnyr" path="res://player/ui/dialog/dialogUI.tscn" id="1_6xof2"]
+
+[node name="Ui" type="CanvasLayer" unique_id=1838713160]
+
+[node name="DialogUi" parent="." unique_id=1752333580 instance=ExtResource("1_6xof2")]

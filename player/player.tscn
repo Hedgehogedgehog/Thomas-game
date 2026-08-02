@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bbgpc7211uwxf"]
+
+[ext_resource type="Texture2D" uid="uid://cyjh4housiw75" path="res://icon.svg" id="1_oul6g"]
+[ext_resource type="Script" uid="uid://y1bmwmj2y3oa" path="res://player/scripts/player.gd" id="1_rkbax"]
+[ext_resource type="PackedScene" uid="uid://ctnp7andui2mu" path="res://player/ui/ui.tscn" id="3_g1dw6"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1445031162]
+script = ExtResource("1_rkbax")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=2064332704]
+position = Vector2(0, -8)
+polygon = PackedVector2Array(88, 96, 136, 96, 136, 144, 88, 144)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1585085520]
+position = Vector2(112, 112)
+texture = ExtResource("1_oul6g")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=958555391]
+position = Vector2(112, 112)
+limit_smoothed = true
+position_smoothing_enabled = true
+position_smoothing_speed = 3.0
+rotation_smoothing_enabled = true
+
+[node name="NPC Talk" type="Area2D" parent="." unique_id=1465452348]
+visible = false
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="NPC Talk" unique_id=951753750]
+position = Vector2(-32, 0)
+polygon = PackedVector2Array(304, -48, 304, 256, -16, 256, -16, -48)
+
+[node name="Scene change" type="Area2D" parent="." unique_id=1919622108]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Scene change" unique_id=1650904315]
+position = Vector2(-24, 8)
+polygon = PackedVector2Array(88, 56, 184, 56, 184, 152, 88, 152)
+
+[node name="Ui" parent="." unique_id=1838713160 instance=ExtResource("3_g1dw6")]

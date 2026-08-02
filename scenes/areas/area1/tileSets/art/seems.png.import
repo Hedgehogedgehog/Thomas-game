@@ -2,22 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://de4ll6nglejhe"
-path="res://.godot/imported/Walls.png-1d7c4967b525530670e02035d547f6fa.ctex"
+uid="uid://buf20ngshpmdj"
+path="res://.godot/imported/seems.png-50987da747ecd840eab9dd15f400064a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://res/art/tileMaps/Walls.png"
-dest_files=["res://.godot/imported/Walls.png-1d7c4967b525530670e02035d547f6fa.ctex"]
+source_file="res://scenes/areas/area1/tileSets/art/seems.png"
+dest_files=["res://.godot/imported/seems.png-50987da747ecd840eab9dd15f400064a.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
@@ -25,6 +27,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
