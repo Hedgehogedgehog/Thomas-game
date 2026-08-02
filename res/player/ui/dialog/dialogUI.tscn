@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://dlte4lr4unnyr"]
 
+[ext_resource type="Texture2D" uid="uid://dsbhfhvymw443" path="res://res/art/debug/missingImage.png" id="1_8draf"]
+
 [node name="DialogUi" type="Control" unique_id=1752333580]
 layout_mode = 3
 anchors_preset = 15
@@ -20,6 +22,17 @@ grow_vertical = 2
 ratio = 4.3942
 stretch_mode = 1
 
-[node name="RichTextLabel" type="RichTextLabel" parent="AspectRatioContainer" unique_id=1819617986]
+[node name="TextureRect" type="TextureRect" parent="AspectRatioContainer" unique_id=1149742164]
+layout_mode = 2
+texture = ExtResource("1_8draf")
+
+[node name="MarginContainer" type="MarginContainer" parent="AspectRatioContainer" unique_id=1056995279]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="RichTextLabel" type="RichTextLabel" parent="AspectRatioContainer/MarginContainer" unique_id=1819617986]
 layout_mode = 2
 text = "This is debug text if you can read this there is an issue."

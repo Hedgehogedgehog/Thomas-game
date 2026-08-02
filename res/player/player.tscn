@@ -40,4 +40,4 @@ collision_mask = 2
 position = Vector2(-24, 8)
 polygon = PackedVector2Array(88, 56, 184, 56, 184, 152, 88, 152)
 
-[node name="Ui" parent="." unique_id=821251025 instance=ExtResource("1_yqnv8")]
+[node name="Ui" parent="." unique_id=1838713160 instance=ExtResource("1_yqnv8")]
